@@ -1,0 +1,52 @@
+.person-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: dense;
+  
+	font-family: monospace;
+	color: #333;
+  padding-bottom: 3px;
+  max-width: 70%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person-form input {
+  text-align: left;
+  color: rgb(27, 43, 90);
+  border-radius: 5px;
+}
+
+.person-form .button {
+  text-align: center;
+  font: bold, 20px;
+  background-color: aliceblue;
+}
+
+.grid-3 {
+	grid-column: span 3;
+}
+
+.grid-2 {
+	grid-column: span 2;
+}
+
+.grid {
+	margin: 5px;
+	background: rgb(255, 195, 195);
+	text-align: center;
+	font-size: 15 px;
+}
+.person-form .text {
+  color: rgb(250, 216, 152);
+  background-color: transparent; 
+}
+
+.person-form img {
+  cursor: pointer;
+}
+
+.person-form .enviar {
+  margin-left: 65%;
+}

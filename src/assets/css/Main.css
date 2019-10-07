@@ -1,0 +1,53 @@
+.title-component{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: max-content;
+
+  font-family: Hello;
+  font-size: 70px;
+  color: rgb(197, 241, 107);
+}
+
+.show-people {
+  flex-grow: inherit;
+  margin-top: 20px;
+}
+
+.show-people .table-people{
+  border: 2px solid black;
+  border-style: dotted;
+  padding: 8px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-people .table-people thead {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.show-people .table-people tbody {
+  color: wheat;
+  background-color: rgb(75, 104, 109);
+}
+
+.show-people .table-people th {
+  text-align: center;
+  padding: 8px;
+}
+
+.show-people .table-people td {
+  text-align: left;
+  padding: 8px;
+}
+
+.show-people .table-people td img, .show-people .table-people th img {
+  cursor: pointer;
+  width: 25px;
+}
+
+.show-people .table-people th img {
+  background-color: yellowgreen;
+}
