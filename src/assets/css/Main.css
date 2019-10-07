@@ -15,7 +15,7 @@
 }
 
 .show-people .table-people{
-  border: 2px solid black;
+  border: 2px solid white;
   border-style: dotted;
   padding: 8px;
   max-width: 90%;
@@ -34,11 +34,13 @@
 }
 
 .show-people .table-people th {
+    border: 2px solid #111;
   text-align: center;
   padding: 8px;
 }
 
 .show-people .table-people td {
+  border: 2px solid rgb(60, 99, 109);
   text-align: left;
   padding: 8px;
 }

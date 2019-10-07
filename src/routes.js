@@ -12,6 +12,7 @@ export default function Routes() {
   return(
     <Router>
         <Switch>
+          <Route path="/" exact component={Main}/>
           <Route path="/persons" exact component={Main}/>
           <Route path="/persons/new" exact component={NewPerson}/>
           <Route path="/persons/:id" exact component={Show}/>
