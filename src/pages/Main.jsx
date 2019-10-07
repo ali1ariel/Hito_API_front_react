@@ -59,8 +59,7 @@ export default function Main({ history }) {
                 } /></td>
                 <td><img src={remove} alt="remover pessoa" onClick={() => {
                   api.delete(`/${person.id}`);
-                  history.push(`/persons`);
-                  
+                  SetPersons(persons.filter((el) => { return el.id !== person.id}));
                 }
                 } /></td>
               </tr>
