@@ -10,6 +10,11 @@
   src: url('../fonts/Hello.otf');
 }
 
+@font-face {
+  font-family: 'LoveStory';
+  src: url('../fonts/LoveStory.ttf');
+}
+
 body {
   background-image: url('../images/mountain_bg.jpg');
   background-size: cover;

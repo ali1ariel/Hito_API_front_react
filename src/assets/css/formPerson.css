@@ -6,10 +6,20 @@
 	font-family: monospace;
 	color: #333;
   padding-bottom: 3px;
-  max-width: 70%;
+  max-width: 50%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.info-text {
+  font-size: 30px;
+  font-family: LoveStory;
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: max-content;
+  opacity: 0.55;
 }
 
 .person-form input {
@@ -34,13 +44,19 @@
 
 .grid {
 	margin: 5px;
-	background: rgb(255, 195, 195);
+	background: rgb(125, 173, 185);
 	text-align: center;
 	font-size: 15 px;
 }
 .person-form .text {
   color: rgb(250, 216, 152);
   background-color: transparent; 
+}
+
+.person-form .not-required {
+  color: white;
+  background-color: transparent; 
+  border-top: 3px;
 }
 
 .person-form img {
